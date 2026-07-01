@@ -1,0 +1,37 @@
+import {
+  FaBrain, FaMicrochip, FaCloud, FaNetworkWired, FaChartBar,
+  FaLink, FaLeaf, FaRobot, FaCog, FaIndustry, FaBolt,
+  FaSolarPanel, FaShieldAlt, FaFlask,
+  FaWaveSquare, FaCity, FaSeedling, FaAtom,
+  FaVrCardboard, FaUserCog, FaServer,
+  FaProjectDiagram, FaLock, FaLayerGroup
+} from 'react-icons/fa';
+
+export const tracks = [
+  { id: 1, title: 'Data Mining & Cloud Computing', icon: FaCloud, color: '#F26522' },
+  { id: 2, title: 'Internet of Things & Data Analytics', icon: FaNetworkWired, color: '#E85D04' },
+  { id: 3, title: 'Artificial Intelligence & Machine Learning', icon: FaBrain, color: '#F26522' },
+  { id: 4, title: 'Optimization Techniques for Electrical Systems', icon: FaBolt, color: '#E85D04' },
+  { id: 5, title: 'Deep Learning for Electrical Systems', icon: FaMicrochip, color: '#F26522' },
+  { id: 6, title: 'Blockchain & Distributed Ledger Technologies', icon: FaLink, color: '#E85D04' },
+  { id: 7, title: 'Green Computing & Energy-Efficient Algorithms', icon: FaLeaf, color: '#F26522' },
+  { id: 8, title: 'AI-driven Industrial Automation', icon: FaCog, color: '#E85D04' },
+  { id: 9, title: 'Intelligent Robotics & Autonomous Systems', icon: FaRobot, color: '#F26522' },
+  { id: 10, title: 'AI in Industry 4.0 / Industry 5.0', icon: FaIndustry, color: '#E85D04' },
+  { id: 11, title: 'Power Systems, Control Engineering & Power Quality', icon: FaBolt, color: '#F26522' },
+  { id: 12, title: 'Green Technology & Renewable Energy', icon: FaSolarPanel, color: '#E85D04' },
+  { id: 13, title: 'Smart Grid & Cyber Security for Electrical Systems', icon: FaShieldAlt, color: '#F26522' },
+  { id: 14, title: 'High Voltage Technologies, HVDC & FACTS Devices', icon: FaFlask, color: '#E85D04' },
+  { id: 15, title: 'Power Electronics and Drives', icon: FaWaveSquare, color: '#F26522' },
+  { id: 16, title: 'Instrumentation and Control', icon: FaProjectDiagram, color: '#E85D04' },
+  { id: 17, title: 'Signal and Image Processing Techniques', icon: FaChartBar, color: '#F26522' },
+  { id: 18, title: 'AI for Smart Cities Infrastructure', icon: FaCity, color: '#E85D04' },
+  { id: 19, title: 'AI in Agriculture & Environmental Monitoring', icon: FaSeedling, color: '#F26522' },
+  { id: 20, title: 'Quantum Computing & Intelligent Algorithms', icon: FaAtom, color: '#E85D04' },
+  { id: 21, title: 'Augmented Reality (AR) & Virtual Reality (VR)', icon: FaVrCardboard, color: '#F26522' },
+  { id: 22, title: 'Digital Twins & Simulation Technologies', icon: FaLayerGroup, color: '#E85D04' },
+  { id: 23, title: 'Human-AI Interaction & Ethical AI', icon: FaUserCog, color: '#F26522' },
+  { id: 24, title: 'Cyber Security for Critical Infrastructure', icon: FaLock, color: '#E85D04' },
+  { id: 25, title: 'Cloud & Edge Computing Architectures', icon: FaServer, color: '#F26522' },
+  { id: 26, title: 'AI for Healthcare & Biomedical Systems', icon: FaBrain, color: '#E85D04' },
+];
