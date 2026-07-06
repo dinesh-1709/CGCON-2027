@@ -1,0 +1,7 @@
+services:
+  cgcon-frontend:
+    build: .
+    container_name: cgcon-frontend
+    ports:
+      - "80:80"
+    restart: unless-stopped

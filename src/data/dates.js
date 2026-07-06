@@ -2,7 +2,7 @@ export const importantDates = [
   {
     id: 1,
     event: 'Paper Submission Opens',
-    date: '1st July 2026',
+    date: '21st July 2026',
     icon: '',
     highlight: false,
     passed: false,

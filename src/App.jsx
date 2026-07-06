@@ -23,8 +23,16 @@ function ScrollToTop() {
 export default function App() {
   return (
     <BrowserRouter>
+
       <div className="flex flex-col min-h-screen">
         <Navbar />
+        <section className="bg-primary text-white py-3 overflow-hidden">
+          <div className="ticker">
+            <div className="ticker-content">
+              📢 Paper Handling: The conference has been submitted to IEEE for technical approval. Publication in the IEEE Xplore Digital Library is subject to IEEE approval and compliance with IEEE quality requirements.
+            </div>
+          </div>
+        </section>
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />

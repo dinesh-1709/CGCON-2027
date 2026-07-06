@@ -28,6 +28,7 @@ export default function Home() {
             transition={{ duration: 0.7, ease: 'easeOut' }}
             className="w-full"
           >
+
             {/* Badge */}
             <div className="flex items-center gap-3 mb-6">
               <span className="inline-block bg-primary/10 text-primary text-sm font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
@@ -111,7 +112,7 @@ export default function Home() {
                 Submit Paper
               </a>
             </div>
-            
+
             {/* Event Countdown */}
             <Countdown targetDate="2027-02-02T00:00:00" />
           </motion.div>

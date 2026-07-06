@@ -20,27 +20,43 @@
   }
 }
 
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-text 25s linear infinite;
+}
+
+@keyframes scroll-text {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg
-           hover:bg-primary-500 active:bg-primary-600 transition-all duration-200 shadow-md
-           hover:shadow-lg hover:-translate-y-0.5;
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-500 active:bg-primary-600 transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5;
   }
 
   .btn-accent {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold rounded-lg
-           hover:bg-accent-dark active:bg-accent-dark transition-all duration-200 shadow-md
-           hover:shadow-lg hover:-translate-y-0.5;
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-accent-dark active:bg-accent-dark transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5;
   }
 
   .btn-outline {
-    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-semibold
-           rounded-lg hover:bg-primary hover:text-white transition-all duration-200;
+    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary hover:text-white transition-all duration-200;
   }
 
   .btn-outline-white {
-    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white font-semibold
-           rounded-lg hover:bg-white hover:text-primary transition-all duration-200;
+    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-primary transition-all duration-200;
   }
 
   .section-title {
@@ -68,9 +84,11 @@
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: #FFF5EE;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #F26522;
   border-radius: 4px;
