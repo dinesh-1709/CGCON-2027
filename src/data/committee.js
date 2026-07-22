@@ -57,7 +57,7 @@ financeChairs: [
   { name: 'Dr. Chandrashekar Jatoth', role: 'Associate Professor, IT, NIT Raipur' },
   { name: 'Dr. D. Suresh', role: 'Assistant Professor, EED, NIT Raipur' },
   { name: 'Dr. Surajit Sannigrahi', role: 'Assistant Professor, EED, NIT Raipur' },
-  { name: 'Dr. Haripriya Vemuganti', role: 'Assistant Professor, EED, NIT Raipur' },
+  { name: 'Dr. Hari Priya Vemuganti', role: 'Assistant Professor, EED, NIT Raipur' },
 ],
 
   trackChairs: [
@@ -75,7 +75,7 @@ financeChairs: [
     { name: 'Prof. Anamika Yadav', role: 'Professor, EED, NIT Raipur', phone: '9425852654' },
     { name: 'Prof. Ebha Koley', role: 'Professor, EED, NIT Raipur', phone: '9827215396' },
     { name: 'Dr. Mridu Sahu', role: 'Associate Professor, IT, NIT Raipur', phone: '9826501139' },
-    { name: 'Dr. Haripriya', role: 'Assistant Professor, EED, NIT Raipur', phone: '9948226112' },
+    { name: 'Dr. Hari Priya Vemuganti', role: 'Assistant Professor, EED, NIT Raipur', phone: '9948226112' },
   ],
 
   advisoryBoard: [
