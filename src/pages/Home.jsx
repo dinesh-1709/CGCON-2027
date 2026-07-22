@@ -177,7 +177,7 @@ export default function Home() {
             Paper Submission Opens 1st August 2026
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto">
-            Submit your research in IEEE format via the CMT portal. Deadline: 30 October 2026.
+            Submit your research in IEEE format via the CMT portal. Deadline: 30 November 2026.
           </p>
           <div className="flex justify-center gap-5 flex-wrap">
             <a
