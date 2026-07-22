@@ -61,7 +61,7 @@ export default function Submission() {
                   {
                     icon: '',
                     title: 'IEEE Xplore (Scopus Indexed)',
-                    desc: 'All registered and presented papers will be submitted to IEEE for inclusion in IEEE Xplore.',
+                    desc: 'Accepted and presented papers will be submitted for inclusion in the IEEE Xplore Digital Library, subject to meeting IEEE Xplore\'s scope and quality requirements.',
                   },
                   {
                     icon: '',
@@ -128,19 +128,19 @@ export default function Submission() {
               <div className="space-y-3 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Submission Opens</span>
-                  <span className="font-semibold text-gray-800">1 Jul 2026</span>
+                  <span className="font-semibold text-gray-800">1st August 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Submission Deadline</span>
-                  <span className="font-semibold text-primary">30 Oct 2026</span>
+                  <span className="font-semibold text-primary">15th November 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Acceptance Notice</span>
-                  <span className="font-semibold text-gray-800">30 Nov 2026</span>
+                  <span className="font-semibold text-gray-800">15th December 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Camera Ready</span>
-                  <span className="font-semibold text-gray-800">15 Dec 2026</span>
+                  <span className="font-semibold text-gray-800">30th December 2026</span>
                 </div>
               </div>
             </div>

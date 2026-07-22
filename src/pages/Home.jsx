@@ -127,7 +127,7 @@ export default function Home() {
           <span className="flex items-center gap-2"><FaEnvelope /> <a href="mailto:cgcon@nitrr.ac.in" className="underline underline-offset-2">cgcon@nitrr.ac.in</a></span>
           <span className="flex items-center gap-2"><FaMapMarkerAlt /> NIT Raipur, G.E. Road, Raipur, CG – 492010</span>
           <span className="flex items-center gap-2"><FaGlobe /> <a href="https://www.nitrr.ac.in" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">www.nitrr.ac.in</a></span>
-          <span className="flex items-center gap-2"><FaCalendarAlt /> Paper Submission Deadline: <strong>30 Oct 2026</strong></span>
+          <span className="flex items-center gap-2"><FaCalendarAlt /> Paper Submission Deadline: <strong>15 November 2026</strong></span>
         </div>
       </section>
 
@@ -177,7 +177,7 @@ export default function Home() {
             Paper Submission Opens 1st August 2026
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto">
-            Submit your research in IEEE format via the CMT portal. Deadline: 30 November 2026.
+            Submit your research in IEEE format via the CMT portal. Deadline: 15th November 2026.
           </p>
           <div className="flex justify-center gap-5 flex-wrap">
             <a
