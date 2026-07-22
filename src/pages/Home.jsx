@@ -139,7 +139,11 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { icon: <FaFileAlt />, title: 'IEEE Xplore Indexed', desc: 'All accepted & presented papers will be submitted for inclusion in IEEE Xplore (Scopus indexed).' },
+           {
+  icon: <FaFileAlt />,
+  title: 'IEEE Xplore Indexed',
+  desc: 'Accepted and presented papers will be submitted for inclusion in the IEEE Xplore Digital Library, subject to meeting IEEE Xplore\'s scope and quality requirements.'
+},
             { icon: <FaGlobe />, title: 'Hybrid Format', desc: 'Participate physically in Raipur or join online from anywhere in the world.' },
             { icon: <FaMicrophone />, title: 'Keynote Speakers', desc: 'Invited talks from eminent professors & scientists across the globe.' },
             { icon: <FaMicrochip />, title: '26+ Research Tracks', desc: 'Wide coverage from AI & ML to Power Systems, Renewable Energy and Smart Automation.' },
@@ -170,7 +174,7 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Paper Submission Opens 1st July 2026
+            Paper Submission Opens 1st August 2026
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto">
             Submit your research in IEEE format via the CMT portal. Deadline: 30 October 2026.

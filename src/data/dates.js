@@ -2,7 +2,7 @@ export const importantDates = [
   {
     id: 1,
     event: 'Paper Submission Opens',
-    date: '21st July 2026',
+    date: '1st August 2026',
     icon: '',
     highlight: false,
     passed: false,
@@ -10,7 +10,7 @@ export const importantDates = [
   {
     id: 2,
     event: 'Paper Submission Deadline',
-    date: '30th October 2026',
+    date: '30th November 2026',
     icon: '',
     highlight: false,
     passed: false,
@@ -18,15 +18,15 @@ export const importantDates = [
   {
     id: 3,
     event: 'Acceptance Notification',
-    date: '30th November 2026',
-    icon: '️',
+    date: '15th December 2026',
+    icon: '',
     highlight: false,
     passed: false,
   },
   {
     id: 4,
     event: 'Camera Ready Paper Submission',
-    date: '15th December 2026',
+    date: '30th December 2026',
     icon: '',
     highlight: false,
     passed: false,
@@ -34,8 +34,8 @@ export const importantDates = [
   {
     id: 5,
     event: 'Registration Deadline',
-    date: '31st December 2026',
-    icon: '️',
+    date: '5th January 2027',
+    icon: '',
     highlight: false,
     passed: false,
   },

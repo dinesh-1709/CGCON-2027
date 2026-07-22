@@ -26,20 +26,22 @@ export const committee = {
     { name: 'Prof. Nilesh J. Vasa', role: 'IIT Madras' },
   ],
 
-  technicalProgramChairs: [
-    { name: 'Prof. S. Ghosh', role: 'Professor, EED, NIT Raipur' },
-    { name: 'Prof. Rakesh Tripathi', role: 'Professor, IT, NIT Raipur' },
-    { name: 'Dr. Satya Prakash Sahu', role: 'Associate Professor, IT, NIT Raipur' },
-    { name: 'Dr. Sanjay Kumar', role: 'Associate Professor, IT, NIT Raipur' },
-  ],
-
-  publicationChairs: [
-    { name: 'Prof. S. Pattnaik', role: 'Professor, EED, NIT Raipur' },
-    { name: 'Prof. R.N. Patel', role: 'Professor, EED, NIT Raipur' },
-    { name: 'Dr. Govind P. Gupta', role: 'Associate Professor, EED, NIT Raipur' },
-    { name: 'Dr. Monalisa Biswal', role: 'Associate Professor, EED, NIT Raipur' },
-    { name: 'Dr. K. Chandrasekaran', role: 'Associate Professor, EED, NIT Raipur' },
-  ],
+ technicalProgramChairs: [
+  { name: 'Prof. S. Ghosh', role: 'Professor, EED, NIT Raipur' },
+  { name: 'Prof. Rakesh Tripathi', role: 'Professor, IT, NIT Raipur' },
+  { name: 'Prof. Anamika Yadav', role: 'Professor, EED, NIT Raipur' },
+  { name: 'Dr. Satya Prakash Sahu', role: 'Associate Professor, IT, NIT Raipur' },
+  { name: 'Dr. Sanjay Kumar', role: 'Associate Professor, IT, NIT Raipur' },
+],
+publicationChairs: [
+  { name: 'Prof. S. Pattnaik', role: 'Professor, EED, NIT Raipur' },
+  { name: 'Prof. R.N. Patel', role: 'Professor, EED, NIT Raipur' },
+  { name: 'Prof. Ebha Koley', role: 'Professor, EED, NIT Raipur' },
+  { name: 'Dr. Govind P. Gupta', role: 'Associate Professor, EED, NIT Raipur' },
+  { name: 'Dr. Monalisa Biswal', role: 'Associate Professor, EED, NIT Raipur' },
+  { name: 'Dr. K. Chandrasekaran', role: 'Associate Professor, EED, NIT Raipur' },
+  { name: 'Dr. Mridu Sahu', role: 'Associate Professor, IT, NIT Raipur' },
+],
 
   publicityChairs: [
     { name: 'Prof. Suvendu Rup', role: 'Professor, IT, NIT Raipur' },
@@ -48,13 +50,14 @@ export const committee = {
     { name: 'Dr. Varsha Singh', role: 'Associate Professor, EED, NIT Raipur' },
   ],
 
-  financeChairs: [
-    { name: 'Dr. Rajesh Doriya', role: 'Associate Professor, IT, NIT Raipur' },
-    { name: 'Dr. Tirath Prasad Sahu', role: 'Associate Professor, IT, NIT Raipur' },
-    { name: 'Dr. Chandrashekar Jatoth', role: 'Associate Professor, IT, NIT Raipur' },
-    { name: 'Dr. D. Suresh', role: 'Assistant Professor, EED, NIT Raipur' },
-    { name: 'Dr. Surajit Sannigrahi', role: 'Assistant Professor, EED, NIT Raipur' },
-  ],
+financeChairs: [
+  { name: 'Dr. Rajesh Doriya', role: 'Associate Professor, IT, NIT Raipur' },
+  { name: 'Dr. Tirath Prasad Sahu', role: 'Associate Professor, IT, NIT Raipur' },
+  { name: 'Dr. Chandrashekar Jatoth', role: 'Associate Professor, IT, NIT Raipur' },
+  { name: 'Dr. D. Suresh', role: 'Assistant Professor, EED, NIT Raipur' },
+  { name: 'Dr. Surajit Sannigrahi', role: 'Assistant Professor, EED, NIT Raipur' },
+  { name: 'Dr. Haripriya Vemuganti', role: 'Assistant Professor, EED, NIT Raipur' },
+],
 
   trackChairs: [
     { name: 'Dr. Sonti Venu', role: 'Assistant Professor, EED, NIT Raipur' },
