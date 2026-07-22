@@ -9,7 +9,7 @@ export default function Registration() {
         <span className="tag">Join Us</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Registration</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Register for IEEE CGCON 2027 — Deadline: 31st December 2026
+          Register for IEEE CGCON 2027 — Deadline: 5th January 2027
         </p>
       </div>
 
