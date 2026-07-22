@@ -40,11 +40,12 @@ publicationChairs: [
   { name: 'Dr. Govind P. Gupta', role: 'Associate Professor, EED, NIT Raipur' },
   { name: 'Dr. Monalisa Biswal', role: 'Associate Professor, EED, NIT Raipur' },
   { name: 'Dr. K. Chandrasekaran', role: 'Associate Professor, EED, NIT Raipur' },
-  { name: 'Dr. Mridu Sahu', role: 'Associate Professor, IT, NIT Raipur' },
 ],
 
   publicityChairs: [
+    
     { name: 'Prof. Suvendu Rup', role: 'Professor, IT, NIT Raipur' },
+      { name: 'Dr. Mridu Sahu', role: 'Associate Professor, IT, NIT Raipur' },
     { name: 'Dr. Baidyanath Bag', role: 'Associate Professor, EED, NIT Raipur' },
     { name: 'Dr. Pavan Kumar Mishra', role: 'Associate Professor, IT, NIT Raipur' },
     { name: 'Dr. Varsha Singh', role: 'Associate Professor, EED, NIT Raipur' },
