@@ -98,10 +98,14 @@ export default function Home() {
               >
                 Register Now
               </a>
-              <a href="#" className="btn-outline flex items-center gap-2">
-                <FaFileDownload />
-                Download Brochure
-              </a>
+<a
+  href="/CGCON_2027_Brochure.pdf"
+  download
+  className="btn-outline flex items-center gap-2"
+>
+  <FaFileDownload />
+  Download Brochure
+</a>
               <a
                 href="https://cmt3.research.microsoft.com/CGCON2026"
                 target="_blank"

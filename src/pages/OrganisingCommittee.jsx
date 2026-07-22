@@ -41,6 +41,7 @@ export default function OrganisingCommittee() {
         <CommitteeSection title="Honorary Chairs" members={committee.honoraryChairs} />
         <CommitteeSection title="Technical Program Chairs" members={committee.technicalProgramChairs} />
         <CommitteeSection title="Publication Chairs" members={committee.publicationChairs} />
+                <CommitteeSection title="Treasurer" members={committee.treasurer} />
         <CommitteeSection title="Publicity Chairs" members={committee.publicityChairs} />
         <CommitteeSection title="Finance Chairs" members={committee.financeChairs} />
         <CommitteeSection title="Track Chairs" members={committee.trackChairs} />

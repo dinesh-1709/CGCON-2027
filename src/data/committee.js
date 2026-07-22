@@ -25,21 +25,28 @@ export const committee = {
     { name: 'Prof. Bhim Singh', role: 'SERB National Science Chair & Emeritus Professor, IIT-Delhi' },
     { name: 'Prof. Nilesh J. Vasa', role: 'IIT Madras' },
   ],
+    honoraryChairs: [
+    { name: 'Prof. Frede Blaabjerg', role: 'Villum Investigator, Aalborg University, Denmark' },
+    { name: 'Prof. Kashem Muttaqi', role: 'University of Wollongong, Australia' },
+    { name: 'Prof. Kleber Melo e Silva', role: 'University of Brasilia, Brazil' },
+    { name: 'Prof. Zahra Moravej', role: 'Semnan University, Iran' },
+    { name: 'Prof. Bhim Singh', role: 'SERB National Science Chair & Emeritus Professor, IIT-Delhi' },
+    { name: 'Prof. Nilesh J. Vasa', role: 'IIT Madras' },
+  ],
+
 
  technicalProgramChairs: [
+    { name: 'Prof. Anamika Yadav', role: 'Professor, EED, NIT Raipur' },
   { name: 'Prof. S. Ghosh', role: 'Professor, EED, NIT Raipur' },
   { name: 'Prof. Rakesh Tripathi', role: 'Professor, IT, NIT Raipur' },
-  { name: 'Prof. Anamika Yadav', role: 'Professor, EED, NIT Raipur' },
-  { name: 'Dr. Satya Prakash Sahu', role: 'Associate Professor, IT, NIT Raipur' },
-  { name: 'Dr. Sanjay Kumar', role: 'Associate Professor, IT, NIT Raipur' },
 ],
+   treasurer: [
+     { name: 'Dr. Hari Priya Vemuganti', role: 'Assistant Professor, EED, NIT Raipur' },
+  ],
 publicationChairs: [
+   { name: 'Prof. Ebha Koley', role: 'Professor, EED, NIT Raipur' },
   { name: 'Prof. S. Pattnaik', role: 'Professor, EED, NIT Raipur' },
   { name: 'Prof. R.N. Patel', role: 'Professor, EED, NIT Raipur' },
-  { name: 'Prof. Ebha Koley', role: 'Professor, EED, NIT Raipur' },
-  { name: 'Dr. Govind P. Gupta', role: 'Associate Professor, EED, NIT Raipur' },
-  { name: 'Dr. Monalisa Biswal', role: 'Associate Professor, EED, NIT Raipur' },
-  { name: 'Dr. K. Chandrasekaran', role: 'Associate Professor, EED, NIT Raipur' },
 ],
 
   publicityChairs: [
@@ -61,6 +68,9 @@ financeChairs: [
 ],
 
   trackChairs: [
+      { name: 'Dr. Govind P. Gupta', role: 'Associate Professor, EED, NIT Raipur' },
+  { name: 'Dr. Monalisa Biswal', role: 'Associate Professor, EED, NIT Raipur' },
+  { name: 'Dr. K. Chandrasekaran', role: 'Associate Professor, EED, NIT Raipur' },
     { name: 'Dr. Sonti Venu', role: 'Assistant Professor, EED, NIT Raipur' },
     { name: 'Dr. Ramya Selvaraj', role: 'Assistant Professor, EED, NIT Raipur' },
     { name: 'Dr. Rajan Kumar', role: 'Assistant Professor, EED, NIT Raipur' },
@@ -69,6 +79,8 @@ financeChairs: [
     { name: 'Dr. Satish Belkhode', role: 'IIT Roorkee' },
     { name: 'Dr. Ramsha Karampuri', role: 'VNIT Nagpur' },
     { name: 'Dr. Arpan Hota', role: 'IIT Kharagpur' },
+      { name: 'Dr. Satya Prakash Sahu', role: 'Associate Professor, IT, NIT Raipur' },
+  { name: 'Dr. Sanjay Kumar', role: 'Associate Professor, IT, NIT Raipur' },
   ],
 
   organizingSecretaries: [
