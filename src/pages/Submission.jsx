@@ -8,7 +8,7 @@ export default function Submission() {
         <span className="tag">Call For Papers</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Paper Submission</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Submit your original research for IEEE CGCON 2027 via the Microsoft CMT portal
+          Submit your original research for ICSETIC-2027 via the Microsoft CMT portal
         </p>
       </div>
 

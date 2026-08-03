@@ -106,7 +106,7 @@ export default function Venue() {
       <section className="bg-primary py-10 px-4 text-white text-center">
         <h3 className="text-xl font-bold mb-2"> Hybrid Conference</h3>
         <p className="text-white/80 max-w-xl mx-auto text-sm">
-          CGCON 2027 will be conducted in hybrid mode. Participants may attend physically at NIT Raipur
+          ICSETIC-2027 will be conducted in hybrid mode. Participants may attend physically at NIT Raipur
           or join online from anywhere in the world. Presentation mode details will be shared on the website.
         </p>
       </section>

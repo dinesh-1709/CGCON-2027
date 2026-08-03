@@ -9,7 +9,7 @@ export default function About() {
         <span className="tag">About</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">About the Conference</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          IEEE CGCON 2027 — Bridging Intelligent Computing, Sustainable Energy & Smart Industrial Automation
+          ICSETIC-2027 — Bridging Sustainable Energy Technologies & Intelligent Computing
         </p>
       </div>
 
@@ -19,13 +19,13 @@ export default function About() {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-5">Conference Overview</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              The <strong>First International IEEE Chhattisgarh Conference (IEEE CGCON 2027)</strong> is organized
+              The <strong>First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing (ICSETIC-2027)</strong> is organized
               by the Department of Electrical Engineering and the Department of Information Technology,
               National Institute of Technology Raipur. The conference will be held in <strong>Hybrid Mode</strong> from
-              <strong> 2nd to 4th February 2027</strong>.
+              <strong> 23rd to 25th June 2027</strong>.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              CGCON 2027 provides a platform for students, academicians, researchers, scientists and
+              ICSETIC-2027 provides a platform for students, academicians, researchers, scientists and
               practicing engineers to exchange knowledge on recent trends, theories and practices in
               Power Systems, Power Electronics, Machine Drives, Control Systems and Computational Technologies.
             </p>
@@ -54,7 +54,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <span className="tag">Scope</span>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mt-3">Three Pillars of CGCON 2027</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mt-3">Three Pillars of ICSETIC-2027</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[

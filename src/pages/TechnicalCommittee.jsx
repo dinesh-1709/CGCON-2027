@@ -28,7 +28,7 @@ export default function TechnicalCommittee() {
         <span className="tag">People</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Technical Program Committee</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Technical program experts for IEEE CGCON 2027
+          Technical program experts for ICSETIC-2027
         </p>
       </div>
 

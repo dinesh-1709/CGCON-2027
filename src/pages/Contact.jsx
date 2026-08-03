@@ -21,7 +21,7 @@ export default function Contact() {
         <span className="tag">Get In Touch</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Contact Us</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Have questions about IEEE CGCON 2027? We'd love to hear from you.
+          Have questions about ICSETIC-2027? We'd love to hear from you.
         </p>
       </div>
 

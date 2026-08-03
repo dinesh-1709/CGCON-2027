@@ -31,7 +31,7 @@ export default function Committee() {
         <span className="tag">People</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Organizing Committee</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Meet the distinguished team organizing IEEE CGCON 2027
+          Meet the distinguished team organizing ICSETIC-2027
         </p>
       </div>
 

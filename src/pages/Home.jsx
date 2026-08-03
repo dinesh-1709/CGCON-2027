@@ -39,23 +39,22 @@ export default function Home() {
 
             {/* Conference Name */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-6">
-              First International IEEE Chhattisgarh Conference
+              First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing
               <span className="block text-primary mt-2">
-                (IEEE CGCON 2027)
+                (ICSETIC-2027)
               </span>
             </h1>
 
             {/* Theme */}
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-10 italic">
-              Theme: Intelligent Computing, Sustainable Energy and Smart Industrial
-              Automation
+              Theme: Sustainable Energy Technologies and Intelligent Computing
             </p>
 
             {/* Info Chips */}
             <div className="flex flex-wrap gap-5 mb-10">
               <div className="flex items-center gap-2 bg-white border border-gray-200 rounded-full px-6 py-3 text-base text-gray-700 shadow-sm">
                 <FaCalendarAlt className="text-primary text-lg" />
-                <span className="font-semibold">2–4 February 2027</span>
+                <span className="font-semibold">23-25 June 2027</span>
               </div>
 
               <div className="flex items-center gap-2 bg-white border border-gray-200 rounded-full px-6 py-3 text-base text-gray-700 shadow-sm">
@@ -118,7 +117,7 @@ export default function Home() {
             </div>
 
             {/* Event Countdown */}
-            <Countdown targetDate="2027-02-02T00:00:00" />
+            <Countdown targetDate="2027-06-23T00:00:00" />
           </motion.div>
         </div>
       </section>

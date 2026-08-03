@@ -124,7 +124,7 @@ export default function Navbar() {
       <div className="w-full bg-white">
         <img
           src={posterImg}
-          alt="CGCON 2027 Conference Banner"
+          alt="ICSETIC-2027 Conference Banner"
           className="w-full h-24 sm:h-32 lg:h-36 object-fit bg-white"
         />
       </div>
@@ -164,8 +164,8 @@ export default function Navbar() {
           {/* Mobile: logo + hamburger */}
           <div className="lg:hidden flex items-center justify-between h-12">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logoImg} alt="CGCON" className="h-8 w-auto" />
-              <span className="font-bold text-sm">CGCON 2027</span>
+              <img src={logoImg} alt="ICSETIC" className="h-8 w-auto" />
+              <span className="font-bold text-sm">ICSETIC-2027</span>
             </Link>
             <button
               className="p-2 rounded-lg hover:bg-white/10 transition-colors"

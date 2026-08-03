@@ -10,7 +10,7 @@ export default function AdvisoryCommittee() {
         <span className="tag">People</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">Advisory Committee</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Distinguished advisors guiding IEEE CGCON 2027
+          Distinguished advisors guiding ICSETIC-2027
         </p>
       </div>
 

@@ -4,9 +4,9 @@ import logoImg from '../assets/logo.png';
 
 const galleryImages = [
   { src: nitCampusImg, caption: 'NIT Raipur Main Campus', alt: 'NIT Raipur Campus' },
-  { src: posterImg, caption: 'CGCON 2027 Conference Poster', alt: 'Conference Poster' },
+  { src: posterImg, caption: 'ICSETIC-2027 Conference Poster', alt: 'Conference Poster' },
   { src: nitCampusImg, caption: 'Academic Block', alt: 'Academic Block' },
-  { src: posterImg, caption: 'IEEE CGCON 2027 Banner', alt: 'Conference Banner' },
+  { src: posterImg, caption: 'ICSETIC-2027 Banner', alt: 'Conference Banner' },
   { src: nitCampusImg, caption: 'Campus Gardens', alt: 'Campus Gardens' },
   { src: nitCampusImg, caption: 'Research Facilities', alt: 'Research Facilities' },
 ];

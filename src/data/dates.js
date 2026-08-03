@@ -42,7 +42,7 @@ export const importantDates = [
   {
     id: 6,
     event: 'Conference Dates',
-    date: '2nd – 4th February 2027',
+    date: '23rd – 25th June 2027',
     icon: '',
     highlight: true,
     passed: false,

@@ -28,17 +28,16 @@ export default function Footer() {
 
         {/* Brand column */}
         <div className="lg:col-span-1">
-          <h3 className="text-white font-bold text-lg mb-1">IEEE CGCON 2027</h3>
+          <h3 className="text-white font-bold text-lg mb-1">ICSETIC-2027</h3>
           <p className="text-primary text-sm font-medium mb-3">
-            First International IEEE Chhattisgarh Conference
+            First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing
           </p>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
-            Intelligent Computing, Sustainable Energy and Smart Industrial Automation.
             Organized by Dept. of EED &amp; IT, NIT Raipur.
           </p>
           <div className="flex items-center gap-2 text-sm text-gray-400">
             <span className="inline-block w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-            Hybrid Conference &bull; 2–4 Feb 2027
+            Hybrid Conference &bull; 23-25 Jun 2027
           </div>
         </div>
 
@@ -125,7 +124,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800 py-5 px-4 md:px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-gray-500">
-          <p>© 2027 IEEE CGCON 2027. All rights reserved. | National Institute of Technology Raipur</p>
+          <p>© 2027 ICSETIC-2027. All rights reserved. | National Institute of Technology Raipur</p>
           <a
             href="https://www.nitrr.ac.in"
             target="_blank"
