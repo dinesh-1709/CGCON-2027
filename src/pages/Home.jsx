@@ -181,7 +181,7 @@ export default function Home() {
             <FaHandshake className="text-blue-600 text-4xl" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-800 mb-2">Service Acknowledgement</h3>
+            <h3 className="text-xl font-bold text-gray-800 mb-2">CMT Acknowledgement</h3>
             <p className="text-gray-600 leading-relaxed text-base">
               The <strong>Microsoft CMT</strong> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
             </p>
