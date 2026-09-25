@@ -39,7 +39,7 @@ export default function Home() {
 
             {/* Conference Name */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight mb-6">
-              First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing
+              IEEE International Conference on Intelligent Computing for Sustainable Energy Technologies and Industrial Control
               <span className="block text-primary mt-2">
                 (ICSETIC-2027)
               </span>
@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Theme */}
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-10 italic">
-              Theme: Sustainable Energy Technologies and Intelligent Computing
+              Theme: Intelligent Computing for Sustainable Energy Technologies and Industrial Control
             </p>
 
             {/* Info Chips */}
@@ -90,7 +90,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-5">
               <a
-                href="https://cmt3.research.microsoft.com/CGCON2026"
+                href="https://cmt3.research.microsoft.com/ICSETIC2027"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-accent"
@@ -98,7 +98,7 @@ export default function Home() {
                 Register Now
               </a>
 <a
-  href="/CGCON_2027_Brochure.pdf"
+  href="/ICSETIC_2027_Brochure.pdf"
   download
   className="btn-outline flex items-center gap-2"
 >
@@ -106,7 +106,7 @@ export default function Home() {
   Download Brochure
 </a>
               <a
-                href="https://cmt3.research.microsoft.com/CGCON2026"
+                href="https://cmt3.research.microsoft.com/ICSETIC2027"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2"
@@ -127,10 +127,10 @@ export default function Home() {
       {/* Quick Info Strip */}
       <section className="bg-primary py-5 px-4">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-center gap-x-10 gap-y-2 text-white text-base">
-          <span className="flex items-center gap-2"><FaEnvelope /> <a href="mailto:cgcon@nitrr.ac.in" className="underline underline-offset-2">cgcon@nitrr.ac.in</a></span>
+          <span className="flex items-center gap-2"><FaEnvelope /> <a href="mailto:icsetic@nitrr.ac.in" className="underline underline-offset-2">icsetic@nitrr.ac.in</a></span>
           <span className="flex items-center gap-2"><FaMapMarkerAlt /> NIT Raipur, G.E. Road, Raipur, CG – 492010</span>
           <span className="flex items-center gap-2"><FaGlobe /> <a href="https://www.nitrr.ac.in" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">www.nitrr.ac.in</a></span>
-          <span className="flex items-center gap-2"><FaCalendarAlt /> Paper Submission Deadline: <strong>15 November 2026</strong></span>
+          <span className="flex items-center gap-2"><FaCalendarAlt /> Paper Submission Deadline: <strong>30 January 2027</strong></span>
         </div>
       </section>
 
@@ -169,6 +169,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Microsoft CMT Acknowledgement */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="bg-blue-50/50 border border-blue-100 rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-8 shadow-sm hover:shadow-md transition-shadow"
+        >
+          <div className="shrink-0 bg-white p-5 rounded-xl shadow-sm border border-gray-100">
+            <FaHandshake className="text-blue-600 text-4xl" />
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-gray-800 mb-2">Service Acknowledgement</h3>
+            <p className="text-gray-600 leading-relaxed text-base">
+              The <strong>Microsoft CMT</strong> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            </p>
+          </div>
+        </motion.div>
+      </section>
+
       {/* CTA Banner */}
       <section className="bg-gradient-to-r from-primary to-orange-400 py-16 px-4 text-center">
         <motion.div
@@ -177,14 +197,14 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Paper Submission Opens 1st August 2026
+            Paper Submission Opens 20th August 2026
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto">
-            Submit your research in IEEE format via the CMT portal. Deadline: 15th November 2026.
+            Submit your research in IEEE format via the CMT portal. Deadline: 30th January 2027.
           </p>
           <div className="flex justify-center gap-5 flex-wrap">
             <a
-              href="https://cmt3.research.microsoft.com/CGCON2026"
+              href="https://cmt3.research.microsoft.com/ICSETIC2027"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline-white"

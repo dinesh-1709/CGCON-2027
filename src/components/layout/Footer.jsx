@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="lg:col-span-1">
           <h3 className="text-white font-bold text-lg mb-1">ICSETIC-2027</h3>
           <p className="text-primary text-sm font-medium mb-3">
-            First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing
+            IEEE International Conference on Intelligent Computing for Sustainable Energy Technologies and Industrial Control
           </p>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Organized by Dept. of EED &amp; IT, NIT Raipur.
@@ -76,7 +76,7 @@ export default function Footer() {
           <div className="mt-6">
             <h4 className="text-white font-semibold text-sm uppercase tracking-wide mb-3">Submission Portal</h4>
             <a
-              href="https://cmt3.research.microsoft.com/CGCON2026"
+              href="https://cmt3.research.microsoft.com/ICSETIC2027"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-light hover:text-blue-300 text-sm transition-colors"
@@ -98,8 +98,8 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2 text-sm">
               <FaEnvelope className="text-primary shrink-0" />
-              <a href="mailto:cgcon@nitrr.ac.in" className="text-gray-400 hover:text-primary transition-colors">
-                cgcon@nitrr.ac.in
+              <a href="mailto:icsetic@nitrr.ac.in" className="text-gray-400 hover:text-primary transition-colors">
+                icsetic@nitrr.ac.in
               </a>
             </div>
             <div className="flex items-center gap-2 text-sm">

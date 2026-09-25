@@ -9,7 +9,7 @@ export default function About() {
         <span className="tag">About</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mt-3">About the Conference</h1>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          ICSETIC-2027 — Bridging Sustainable Energy Technologies & Intelligent Computing
+          ICSETIC-2027 — Bridging Intelligent Computing for Sustainable Energy Technologies and Industrial Control
         </p>
       </div>
 
@@ -19,7 +19,7 @@ export default function About() {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-5">Conference Overview</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              The <strong>First IEEE International Conference on Sustainable Energy Technologies and Intelligent Computing (ICSETIC-2027)</strong> is organized
+              The <strong>IEEE International Conference on Intelligent Computing for Sustainable Energy Technologies and Industrial Control (ICSETIC-2027)</strong> is organized
               by the Department of Electrical Engineering and the Department of Information Technology,
               National Institute of Technology Raipur. The conference will be held in <strong>Hybrid Mode</strong> from
               <strong> 23rd to 25th June 2027</strong>.

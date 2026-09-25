@@ -17,7 +17,7 @@ export default function Registration() {
       <section className="section-pad">
         <div className="text-center mb-10">
           <h2 className="text-2xl font-bold text-gray-800">Registration Fees</h2>
-          <p className="text-gray-500 text-sm mt-1">All fees are exclusive of GST. GST will be applied as per Government Directives.</p>
+          <p className="text-gray-500 text-sm mt-1">All fees include 18% GST.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {registrationCategories.map((cat, i) => (
@@ -37,7 +37,7 @@ export default function Registration() {
             {[
               { step: '01', icon: '', title: 'Make Payment', desc: 'Pay the registration fee directly to the bank account below via online transaction.' },
               { step: '02', icon: '', title: 'Fill the Form', desc: 'Complete the Registration Form available on the conference website.' },
-              { step: '03', icon: '', title: 'Send to Email', desc: 'Email the filled form + payment proof to cgcon@nitrr.ac.in before 31 December 2026.' },
+              { step: '03', icon: '', title: 'Send to Email', desc: 'Email the filled form + payment proof to icsetic@nitrr.ac.in before 15 May 2027.' },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-2xl p-6 shadow-sm text-center border border-gray-100 relative">
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -81,7 +81,7 @@ export default function Registration() {
 
           <div className="mt-6 bg-orange-50 rounded-xl p-5 border border-primary/20 text-sm text-gray-600">
             <strong> Important:</strong> After payment, send the filled registration form along with payment
-            proof to <a href="mailto:cgcon@nitrr.ac.in" className="text-accent underline font-medium">cgcon@nitrr.ac.in</a>.
+            proof to <a href="mailto:icsetic@nitrr.ac.in" className="text-accent underline font-medium">icsetic@nitrr.ac.in</a>.
             At least one author per paper must register for paper inclusion in IEEE Xplore.
           </div>
         </div>

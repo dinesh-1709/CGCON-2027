@@ -96,7 +96,7 @@ export default function Submission() {
                 Use the Microsoft CMT portal for paper submission.
               </p>
               <a
-                href="https://cmt3.research.microsoft.com/CGCON2026"
+                href="https://cmt3.research.microsoft.com/ICSETIC2027"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-primary font-bold px-5 py-2.5 rounded-lg hover:bg-orange-50 transition-colors w-full justify-center"
@@ -128,19 +128,19 @@ export default function Submission() {
               <div className="space-y-3 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Submission Opens</span>
-                  <span className="font-semibold text-gray-800">1st August 2026</span>
+                  <span className="font-semibold text-gray-800">20th August 2026</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Submission Deadline</span>
-                  <span className="font-semibold text-primary">15th November 2026</span>
+                  <span className="font-semibold text-primary">30th January 2027</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Acceptance Notice</span>
-                  <span className="font-semibold text-gray-800">15th December 2026</span>
+                  <span className="font-semibold text-gray-800">28th February 2027</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Camera Ready</span>
-                  <span className="font-semibold text-gray-800">30th December 2026</span>
+                  <span className="font-semibold text-gray-800">15th April 2027</span>
                 </div>
               </div>
             </div>
@@ -148,8 +148,8 @@ export default function Submission() {
             {/* Contact */}
             <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm text-sm">
               <h3 className="font-bold text-gray-800 mb-2"> Questions?</h3>
-              <a href="mailto:cgcon@nitrr.ac.in" className="text-accent hover:underline break-all">
-                cgcon@nitrr.ac.in
+              <a href="mailto:icsetic@nitrr.ac.in" className="text-accent hover:underline break-all">
+                icsetic@nitrr.ac.in
               </a>
             </div>
           </div>

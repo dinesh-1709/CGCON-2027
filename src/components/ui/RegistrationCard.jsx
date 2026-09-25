@@ -50,7 +50,7 @@ export default function RegistrationCard({ category, index }) {
 
       {/* CTA */}
       <a
-        href="https://cmt3.research.microsoft.com/CGCON2026"
+        href="https://cmt3.research.microsoft.com/ICSETIC2027"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-auto btn-accent text-sm text-center justify-center"

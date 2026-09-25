@@ -49,7 +49,7 @@ export default function Dates() {
                 </li>
               </ul>
               <a
-                href="https://cmt3.research.microsoft.com/CGCON2026"
+                href="https://cmt3.research.microsoft.com/ICSETIC2027"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-5 btn-accent text-sm inline-flex"
@@ -63,7 +63,7 @@ export default function Dates() {
               <h3 className="font-bold text-gray-800 text-lg mb-3"> Registration Reminder</h3>
               <p className="text-sm text-gray-600 mb-2">
                 Pay the registration fee directly to the bank account and send the filled registration form
-                with payment proof to <a href="mailto:cgcon@nitrr.ac.in" className="text-accent underline">cgcon@nitrr.ac.in</a> before <strong>31st December 2026</strong>.
+                with payment proof to <a href="mailto:icsetic@nitrr.ac.in" className="text-accent underline">icsetic@nitrr.ac.in</a> before <strong>15th May 2027</strong>.
               </p>
               <p className="text-xs text-gray-400">*GST applicable as per Government Directives</p>
             </div>

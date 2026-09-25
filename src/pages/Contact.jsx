@@ -38,8 +38,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-xs font-semibold text-gray-400 uppercase">Email</p>
-                    <a href="mailto:cgcon@nitrr.ac.in" className="text-accent hover:underline font-medium">
-                      cgcon@nitrr.ac.in
+                    <a href="mailto:icsetic@nitrr.ac.in" className="text-accent hover:underline font-medium">
+                      icsetic@nitrr.ac.in
                     </a>
                   </div>
                 </div>
