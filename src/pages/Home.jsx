@@ -148,8 +148,8 @@ export default function Home() {
   desc: 'Accepted and presented papers will be submitted for inclusion in the IEEE Xplore Digital Library, subject to meeting IEEE Xplore\'s scope and quality requirements.'
 },
             { icon: <FaGlobe />, title: 'Hybrid Format', desc: 'Participate physically in Raipur or join online from anywhere in the world.' },
-            { icon: <FaMicrophone />, title: 'Keynote Speakers', desc: 'Invited talks from eminent professors & scientists across the globe.' },
-            { icon: <FaMicrochip />, title: '26+ Research Tracks', desc: 'Wide coverage from AI & ML to Power Systems, Renewable Energy and Smart Automation.' },
+            { icon: <FaMicrophone />, title: 'Keynote Speakers', desc: 'Invited talks from eminent professors & scientists across the globe.', to: '/keynote-speakers' },
+            { icon: <FaMicrochip />, title: '26+ Research Tracks', desc: 'Wide coverage from AI & ML to Power Systems, Renewable Energy and Smart Automation.', to: '/tracks' },
             { icon: <FaHandshake />, title: 'Networking', desc: 'Connect with researchers, academicians and industry experts from India and abroad.' },
             { icon: <FaTrophy />, title: 'Best Paper Awards', desc: 'Recognition for outstanding research contributions across tracks.' },
           ].map((item, i) => (
@@ -159,11 +159,18 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08 }}
-              className="card p-8 hover:border-primary/30"
+              className="card p-8 hover:border-primary/30 flex flex-col justify-between"
             >
-              <span className="text-4xl">{item.icon}</span>
-              <h3 className="font-bold text-lg text-gray-800 mt-4 mb-2">{item.title}</h3>
-              <p className="text-base text-gray-500 leading-relaxed">{item.desc}</p>
+              <div>
+                <span className="text-4xl">{item.icon}</span>
+                <h3 className="font-bold text-lg text-gray-800 mt-4 mb-2">{item.title}</h3>
+                <p className="text-base text-gray-500 leading-relaxed">{item.desc}</p>
+              </div>
+              {item.to && (
+                <Link to={item.to} className="inline-block mt-4 text-sm font-semibold text-primary hover:underline">
+                  View details &rarr;
+                </Link>
+              )}
             </motion.div>
           ))}
         </div>
@@ -197,10 +204,10 @@ export default function Home() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Paper Submission Opens 20th August 2026
+            Full Paper Submission Opens 28 Sep 2026
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-xl mx-auto">
-            Submit your research in IEEE format via the CMT portal. Deadline: 30th January 2027.
+            Submit your research in IEEE format via the CMT portal. Deadline: 30th Jan 2027.
           </p>
           <div className="flex justify-center gap-5 flex-wrap">
             <a

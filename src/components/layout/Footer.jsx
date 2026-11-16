@@ -4,6 +4,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGlobe, FaLinkedin } from 'react-
 const quickLinks = [
   { label: 'Home', to: '/' },
   { label: 'About Conference', to: '/about' },
+  { label: 'Keynote Speakers', to: '/keynote-speakers' },
   { label: 'Conference Tracks', to: '/tracks' },
   { label: 'Important Dates', to: '/dates' },
   { label: 'Registration', to: '/registration' },

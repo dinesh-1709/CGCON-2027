@@ -131,14 +131,17 @@ export default function Navbar() {
 
       {/* ── Desktop Navbar ── */}
       <nav className={`bg-primary text-white shadow-md sticky top-0 z-50 transition-shadow duration-300 ${scrolled ? 'shadow-lg' : ''}`}>
-        <div className="px-20 lg:px-10">
+        <div className="px-4 lg:px-6 xl:px-10">
           {/* Desktop menu */}
-          <ul className="hidden lg:flex items-center justify-center gap-4 xl:gap-6 h-14 text-sm xl:text-base font-medium">
+          <ul className="hidden lg:flex items-center justify-center gap-3 xl:gap-5 h-14 text-sm xl:text-base font-medium">
             <li>
               <NavLink to="/" end className={desktopLink}>Home</NavLink>
             </li>
             <li>
               <NavLink to="/about" className={desktopLink}>About Conference</NavLink>
+            </li>
+            <li>
+              <NavLink to="/keynote-speakers" className={desktopLink}>Keynote Speakers</NavLink>
             </li>
 
             <DesktopDropdown label="Committees" items={committees} />
@@ -202,6 +205,16 @@ export default function Navbar() {
               }
             >
               About Conference
+            </NavLink>
+            <NavLink
+              to="/keynote-speakers"
+              onClick={closeMenu}
+              className={({ isActive }) =>
+                `px-4 py-3 text-sm font-medium rounded-lg transition-colors ${isActive ? 'text-primary font-semibold bg-primary-50' : 'text-gray-700 hover:text-primary hover:bg-primary-50'
+                }`
+              }
+            >
+              Keynote Speakers
             </NavLink>
 
             <MobileDropdown label="Committees" items={committees} onClose={closeMenu} />

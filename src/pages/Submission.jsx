@@ -126,21 +126,21 @@ export default function Submission() {
             <div className="bg-orange-50 rounded-2xl border border-primary/20 p-6">
               <h3 className="font-bold text-gray-800 mb-4"> Key Deadlines</h3>
               <div className="space-y-3 text-sm">
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Submission Opens</span>
-                  <span className="font-semibold text-gray-800">20th August 2026</span>
+                <div className="flex justify-between gap-4">
+                  <span className="text-gray-600">Full Paper Submission Opens</span>
+                  <span className="font-semibold text-gray-800 text-right">28 Sep 2026</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Submission Deadline</span>
-                  <span className="font-semibold text-primary">30th January 2027</span>
+                <div className="flex justify-between gap-4">
+                  <span className="text-gray-600">Full Paper Submission Deadline</span>
+                  <span className="font-semibold text-primary text-right">30th Jan 2027</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Acceptance Notice</span>
-                  <span className="font-semibold text-gray-800">28th February 2027</span>
+                <div className="flex justify-between gap-4">
+                  <span className="text-gray-600">Paper Acceptance Notification</span>
+                  <span className="font-semibold text-gray-800 text-right">28th February 2027</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Camera Ready</span>
-                  <span className="font-semibold text-gray-800">15th April 2027</span>
+                <div className="flex justify-between gap-4">
+                  <span className="text-gray-600">Camera Ready Final Paper Submission</span>
+                  <span className="font-semibold text-gray-800 text-right">15th April 2027</span>
                 </div>
               </div>
             </div>
